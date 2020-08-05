@@ -60,6 +60,7 @@ class SendPost extends Command
                 } else {
                     $response = json_decode($result, TRUE);
                     print_r($response);
+                    echo 'send..';
                 }
                 //close connection 
 
