@@ -11,14 +11,14 @@ class CustomCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'command:name';
+    protected $signature = 'command:sendPost';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'check post';
 
     /**
      * Create a new command instance.
@@ -37,6 +37,8 @@ class CustomCommand extends Command
      */
     public function handle()
     {
-        return 0;
+        try {
+        } catch (Exception $e) {
+        }
     }
 }
